@@ -1,0 +1,23 @@
+marks=[67.66,45.5,66,90,34]
+print(marks)
+print(type(marks))
+print(len(marks))
+print(marks[0])
+#we can change values in lists
+marks[4]=100
+print(marks)
+print(marks[1:4])
+marks.append(99.5)
+print(marks)
+marks.sort()
+print(marks)
+marks.sort(reverse=True)
+print(marks)
+marks.reverse()
+print(marks)
+marks.insert(3,69)
+print(marks)
+marks.remove(90)
+print(marks)
+marks.pop(1)
+print(marks)

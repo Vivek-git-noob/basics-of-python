@@ -1,0 +1,12 @@
+a=20
+# a=a+10
+a+=10
+print("a =",a)
+a=a-10
+print("a =",a)
+a*=10
+print("a =",a)
+a/=10
+print("a = ",a)
+a**=10
+print("a = ",a)
