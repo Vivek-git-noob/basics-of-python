@@ -1,0 +1,6 @@
+f=open("demo.txt","a+")
+f.write("WHY SO SERIOUS,LIFE IS A RACE,WINTER IS COMING,YOUR BROTHER OR YOUR LOVER")
+f.close()
+f=open("demo.txt","r")
+print(f.read())
+f.close()
